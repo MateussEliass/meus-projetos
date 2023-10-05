@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom, white, whitesmoke, aliceblue);
+    background-attachment: fixed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #8a000b;
+    padding: 5px;
+}
+.login{
+    display: flex;
+}
+header img{
+    width: 1.5vw;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+a:hover{
+    color: rgb(228, 28, 28);
+    transition: 0.8s ease-in-out;
+}
+main{
+   
+   width: 60vw;
+   margin: auto;
+   border-radius: 18px;
+   background-color: black;
+   color:whitesmoke;
+}
+.pesquisa h2{
+    text-align: center;
+}
+.pesquisa input{
+    display: flex;
+    margin: auto;
+    width: 40vw;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f8f8f8;
+}
+.pesquisa {
+    padding-top: 80px;
+}
+.texto p{
+padding-top: 100px;
+padding-bottom: 90px;
+}
+
+.texto a{
+    font-size: 16px;
+}
+div.produtos img{
+    width: 18vw;
+
+}
+div.produtos {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 115px;
+}
+.title{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+}
+.form input{
+    margin: auto;
+    width: 200px;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f8f8f8;
+}
+.form label{
+    text-align: center;
+
+}
+.form {
+    padding: 150px;
+}
+th,td{
+    color: whitesmoke;
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+    background-color:#8a000b ;
+    padding: 5px;
+    color: whitesmoke;
+}
